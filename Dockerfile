@@ -1,4 +1,4 @@
-FROM node:glibc
+FROM node:latest
 
 RUN apt-get update && apt-get install -y libopencv-dev
 
